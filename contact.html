@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style >
+    A{text-decoration:none;}
+  </style>
+  <body>
+
+    <div class="">
+      <h1>Contact us : </h1><br><br>
+
+    <form class="" action="mailto:shubham2019@iiitkottayam.ac.in" method="post" enctype="text/plain" >
+
+
+
+      <div class="">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="130" size="30"><br><br>
+      </div>
+
+      <div class="">
+        <label for="start"><abbr title="date of birth">DOB</abbr> (students above 18 years):</label>
+        <input type="date" id="start" name="dob"  min="1985-01-01" max="2002-01-01"><br><br>
+      </div>
+
+      <div class="">
+        <label for="adhar">Adhar : </label>
+        <input type="text" id="adhar" name="Adhar" required minlength="4" maxlength="16" size="30"> <br><br>
+      </div>
+
+      <div class="">
+        <label for="email">E-mail ID:</label>
+        <input type="email" id="email"  size="30" required>  <br><br>
+      </div>
+
+      <div class="">
+          <p>Select a college you love :</p>
+
+            <div>
+            <input type="radio" id="iit" name="college">
+            <label for="iit"><abbr title="Indian institute of technology">IIT's</abbr></label><br><br>
+            </div>
+      </div>
+
+      <div>
+      <input type="radio" id="nit" name="college" >
+      <label for="nit"><abbr title="national institute of technology">NIT's</abbr></label><br><br>
+      </div>
+
+      <div>
+      <input type="radio" id="iiit" name="college" >
+      <label for="iiit"><abbr title="Indian institute of information technology">IIIT's</abbr></label><br><br>
+      </div>
+
+      <div class="">
+        <label for="appt">Choose a time for contact:</label>
+        <input type="time" id="appt" name="time of contact" min="08:00" max="18:00" required>
+        <small>  (Office hours are 8am to 6pm)</small>
+      </div>
+
+      <p>Choose your monster's colors for web development:</p>
+
+      <div>
+    <input type="color" id="head" name="headcolor" value="#e66465">
+    <label for="head">Head</label>
+      </div>
+
+      <div>
+        <input type="color" id="body" name="bodycolor" value="#f6b73c">
+        <label for="body">Body</label><br><br>
+      </div>
+
+      <div class="">
+        <table>
+          <tr>
+            <td>Phone NO</td>
+            <td>
+
+            <select>
+
+    <option>+913
+    </option>
+
+   <option> +91
+    </option>
+
+    <option>+915
+    </option>
+
+    <option>+917
+    </option>
+
+    <option>+912
+    </option>
+
+    <option>+93
+    </option>
+
+   </select>
+   <input type="Phone" name="Phone" value="" placeholder="1234567890">
+
+   </td>
+          </tr>
+        </table>
+      </div>
+      <input type="submit" value="Send Request">
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+  </body>
+</html>
